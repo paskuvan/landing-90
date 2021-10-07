@@ -26,3 +26,27 @@ body {
     width: 530px;
     height: auto;;
 }
+
+.img-texto {
+    padding: 10px 0;
+}
+
+.parrafo {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.img-historia {
+    width: 530px;
+    height: auto;
+}
+
+.titulo {
+    font-size: 20px;
+    color: #375736;
+    font-weight: 900;
+}
+
+.mt-7 {
+    margin-top: 6rem!important;
+}
