@@ -68,3 +68,7 @@ body {
     max-width: 90%;
 }
 
+/*media queries*/
+@media (max-width: 768px) {
+    
+}
