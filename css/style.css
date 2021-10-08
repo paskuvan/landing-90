@@ -13,10 +13,16 @@ body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
+    max-width: 100%
 }
 
 .verde {
     color: #375736;
+}
+
+.gris{
+    color: #5b5b5b;
+
 }
 
 .logo {
@@ -68,7 +74,37 @@ body {
     max-width: 90%;
 }
 
+.pb-20 {
+    padding-bottom: 20px;
+}
+
+.pt-10 {
+    padding-top: 10px;
+}
+
 /*media queries*/
 @media (max-width: 768px) {
-    
+
+    .footer-title {
+        font-size: 24px;
+        font-weight: 900;
+        color:#375736;
+        padding-top: 30px;
+    }
+
+    .footer-parrafo {
+        font-size: 18px;
+        color: #5b5b5b;
+        padding-bottom: 10px;
+    }
+
+    .txt-center {
+        text-align: center;
+    }
+
+    .ptm-20 {
+        padding-top: 20px;
+    }
+
+   
 }
