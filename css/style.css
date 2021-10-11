@@ -608,5 +608,8 @@ body {
         margin-top: 10px;
     }
 
+    .img-historia {
+      max-width: 100%;
+    }
    
 }
