@@ -609,7 +609,15 @@ body {
     }
 
     .img-historia {
-      max-width: 100%;
+      max-width: 80%;
+    }
+
+    .img-header {
+      max-width: 80%;
+    }
+
+    .img-texto {
+      max-width: 80%;
     }
    
 }
