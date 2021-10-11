@@ -66,6 +66,11 @@ body {
     font-weight: 900;
 }
 
+.txt-none {
+  text-decoration: none;
+  color: white;
+}
+
 .mt-7 {
     margin-top: 6rem!important;
 }
