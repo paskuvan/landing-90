@@ -25,6 +25,14 @@ body {
 
 }
 
+.blanco {
+  color: white;
+}
+
+.amarillo {
+  color: #b5ff00 !important;
+}
+
 .logo {
     width: 180px;
     height: auto;
@@ -67,6 +75,16 @@ body {
 }
 
 .txt-none {
+  text-decoration: none;
+  color: white;
+}
+
+.b-bottom {
+  border-bottom: 2px solid #b5ff00;
+  padding: 5px 0;
+}
+
+.txt-none:hover {
   text-decoration: none;
   color: white;
 }
