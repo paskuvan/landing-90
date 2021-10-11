@@ -120,6 +120,20 @@ body {
     color: white !important;
 }
 
+.email {
+  font-size: 12px;
+}
+
+.telefono {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.horario {
+  font-size: 14px;
+  font-weight: 400;
+}
+
 /*Timeline*/
 
 .timeline-carousel {
