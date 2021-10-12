@@ -638,5 +638,10 @@ body {
     .img-texto {
       max-width: 80%;
     }
+
+    .m-left {
+      margin-left: -2px !important;
+      margin-bottom: 2px !important;
+    }
    
 }
