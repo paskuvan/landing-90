@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="css/bootstrap.min.css" />
         <link rel="stylesheet" href="css/slick.css" />
         <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
+        <link rel="stylesheet" href="css/bootstrap.min.css.map">
         <link rel="stylesheet" href="css/owl.carousel.min.css" />
         <link rel="stylesheet" href="css/owl.theme.default.min.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -15,6 +16,7 @@
         <title>Vive lo Natural - 90 años de Tradición</title>
     </head>
     <body>
+
         <!--Menu-->
         <nav class="navbar navbar-expand-lg mb-5 navbar-custom navbar-dark">
             <img src="img/logo.png" class="logo img-responsive" alt="" />
@@ -103,7 +105,6 @@
                </div>
                 <!--Hidden Desktop-->
                 <div class="col lg-6 text-center d-none d-md-block ">
-                    <img src="img/historia.png" class="img-responsive img-historia" alt="">
                 </div>
             </div>
         </div>
@@ -334,13 +335,13 @@
                 <div class="col-lg-6 txt-center">
                     <p class="parrafo ptm-20"><strong>SALUDO DE DOÑA CECILIA CARO</strong>/ CLIENTA FARMACIAS KNOP</p>
                     <div class="thumbnail">
-                        <a data-fancybox="video-gallery" href="http://vimeo.com/36031564"><img src="img/saludo01.png" class="mw-90" /></a>
+                        <a data-fancybox="video-gallery" href="https://drive.google.com/file/d/1DPrzyKfqq7rbaIsVoRR2kzc0ydbMhSXA/preview"><img src="img/saludo01.png" class="mw-90" /></a>
                     </div>
                 </div>
                 <div class="col-lg-6 txt-center">
                     <p class="parrafo ptm-20"><strong> SALUDO DE DON MAX SALGADO</strong>/ CLIENTE FARMACIAS KNOP</p>
                     <div class="thumbnail">
-                        <a data-fancybox="video-gallery" href="http://vimeo.com/36031564"><img src="img/saludo02.png" class="mw-90" /></a>
+                        <a data-fancybox="video-gallery" href="https://drive.google.com/file/d/1B3yP62jLqf9R-uV76QBJDQWoAnXW2TY0/preview"><img src="img/saludo02.png" class="mw-90" /></a>
                     </div>
                 </div>
             </div>
@@ -656,6 +657,9 @@
             </div>
         </div>
 
+        <button id="topBtn"><i data-feather="arrow-up" class="m-left"></i></button>
+        
+
         <!--Javascript-->
         <script src="js/bootstrap.min.js"></script>
         <script src="js/jquery-3.6.0.min.js"></script>
@@ -666,6 +670,7 @@
         <script src="js/jquery.fancybox.min.js"></script>
         <script src="js/owl.carousel.min.js"></script>
         <script src="https://unpkg.com/feather-icons"></script>
+        
         <script>
             feather.replace()
           </script>
@@ -673,6 +678,7 @@
             var scroll = new SmoothScroll('a[href*="#"]');
         </script>
 
+<!--Carrousel-->
         <script>
             (function ($) {
                 "use strict";
@@ -713,5 +719,31 @@
                 carousel();
             })(jQuery);
         </script>
+
+<script>
+    $(document).ready(function () {
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 40) {
+                $("#topBtn").fadeIn();
+            } else {
+                $("#topBtn").fadeOut();
+            }
+        });
+
+        $("#topBtn").click(function () {
+            $("html ,body").animate({ scrollTop: 0 }, 800);
+        });
+    });
+</script>
+
+<script>
+    $('a[data-slide="prev"]').click(function() {
+  $('#myCarousel').carousel('prev');
+});
+
+$('a[data-slide="next"]').click(function() {
+  $('#myCarousel').carousel('next');
+});
+</script>
     </body>
 </html>
