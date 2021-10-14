@@ -49,6 +49,10 @@ body {
     color: white; 
 }
 
+.navbar-dark .navbar-toggler {
+    color: #245830 !important;
+}
+
 .img-header {
     width: 530px;
     height: auto;;
