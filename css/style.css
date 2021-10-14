@@ -25,6 +25,10 @@ body {
 
 }
 
+.naranja {
+  color: #FF4C29;
+}
+
 .blanco {
   color: white;
 }
@@ -74,7 +78,7 @@ body {
 
 .titulo {
     font-size: 20px;
-    color: #375736;
+    color: #FF4C29;
     font-weight: 900;
 }
 
