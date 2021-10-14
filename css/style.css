@@ -586,7 +586,7 @@ body {
     font-size: 22px;
     width: 50px;
     height: 50px;
-    background: #83b841;
+    background: #83b735;
     color: white;
     border-radius: 30px;
     border: none;
@@ -643,9 +643,13 @@ body {
       max-width: 80%;
     }
 
-    .m-left {
-      margin-left: -2px !important;
-      margin-bottom: 2px !important;
+    .logo {
+      margin: 10px 0;
+    }
+
+    .feather {
+      height: 24px;
+      width: 24px;
     }
    
 }
