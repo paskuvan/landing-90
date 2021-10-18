@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
+        <link rel="shortcut icon" type="image/jpg" href="img/favicon-96x96.png"/>
         <link rel="stylesheet" href="css/style.css" />
         <link rel="stylesheet" href="css/bootstrap.min.css" />
         <link rel="stylesheet" href="css/slick.css" />
@@ -699,11 +700,11 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <h1 class="titulo text-center pb-20">Envíanos tu Saludo y participa por un premio sorpresa!</h1>
-                        <form>
+                        <form id="contact-form" method="post" action="saludos.php" role="form">
                             <div class="form-inline justify-content-center">
                                 <input type="text" id="miNombre" class="form-control" placeholder="Nombre" />
                                 <input type="email" id="miCorreo" class="form-control" placeholder="Email" />
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="1" placeholder="Ingresa tu saludo"></textarea>
+                                <textarea class="form-control" id="formMessage" rows="1" placeholder="Ingresa tu saludo"></textarea>
                                 <button type="submit" class="btn btn-success boton">ENVIAR</button>
                             </div>
                         </form>
